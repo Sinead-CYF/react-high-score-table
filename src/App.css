@@ -4,7 +4,26 @@
   color: white;
   text-align: center;
   padding: 0.5rem;
+  display: flex;
 }
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.header-title-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
 
 .outer-wrapper {
   width: 90%;
@@ -15,7 +34,8 @@
 .main-title {
   text-align: center;
   margin: 1.5rem;
-  /* border: 1px solid pink; */
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
 }
 
 .tables-wrapper {
@@ -32,7 +52,7 @@
   font-size: 1.5rem;
   color: white;
   font-weight: bolder;
-  background-color: rgb(129, 178, 180);
+  background-color:  #282c34;
   font-family: 'Noto Serif', serif;
   letter-spacing: 0.5px;
   font-size: 2rem;
@@ -45,8 +65,7 @@
   border: 1px solid lightblue;
   margin-bottom: 1rem;
   background-color: white;
-  border-radius: 5px;
-  box-shadow: rgb(201, 201, 224) 0px 4px 5px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border: 1px solid #282c34;
 }
 
 .table-heading {
