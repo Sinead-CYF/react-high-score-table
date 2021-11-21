@@ -18,12 +18,4 @@ function Header() {
   );
 }
 
-{
-  /* <a href="https://imgbb.com/"><img src="https://i.ibb.co/zXCP3jj/earth.png" alt="earth" border="0"></a> */
-}
-
-{
-  /* <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
-}
-
 export default Header;
