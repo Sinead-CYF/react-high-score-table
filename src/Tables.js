@@ -1,9 +1,12 @@
 import allCountryScores from "./scores";
 
 function Tables(props) {
+
   const sortedCountries = allCountryScores.sort((a, b) => {
     return a.name < b.name ? -1 : 1;
   });
+
+ 
 
   return (
     <div className="tables-wrapper">
@@ -22,7 +25,7 @@ function Tables(props) {
             </thead>
 
             <tbody>
-              {country.scores.map((person, index) => {
+              {country.scores.sort((a, b) => (a.s < b.s ? 1 : -1)).map((person, index) => {
                 return (
                   <tr className ="table-row">
                     <td className ="table-row-n">{person.n}</td>
